@@ -9,7 +9,7 @@ class Timer
 
   def seconds 
     @seconds
-  endd
+  end
 
   def padded num
     if num.to_s.length == 1

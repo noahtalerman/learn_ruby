@@ -109,10 +109,11 @@ end
 # once the above tests pass,
 # write tests and code for the following:
 
-describe &quot;#multiply&quot; do
+describe &quot;multiply&quot; do
 
   it &quot;multiplies two numbers&quot;
-
+      expect(multiply(3, 5).to eq(15))
+      expect(multiply(-2, 4).to eq(-8))
   it &quot;multiplies several numbers&quot;
 
 end

@@ -66,8 +66,8 @@ describe "Simon says" do
   end
 
   describe "first_word" do
-    it "tells us the first word of 'Hello World' is 'Hello'" do
-      expect(first_word("Hello World")).to eq("Hello")
+    it "tells us the first word of 'Hello World Bye' is 'Hello'" do
+      expect(first_word("Hello World Bye")).to eq("Hello")
     end
 
     it "tells us the first word of 'oh dear' is 'oh'" do
